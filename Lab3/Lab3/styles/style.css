@@ -1,0 +1,64 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('../images/bg.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:initial;
+}
+
+#wrapper {
+    width: 700px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+header {
+    width: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lobster Two', cursive;
+    color: floralwhite;
+    font-size:80px;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 8px #000;
+    margin: 40px auto;
+}
+
+article{
+    width: 700px;
+    background: linear-gradient(to right, antiquewhite, floralwhite, antiquewhite);
+    height: 600px;
+    box-shadow: 0 0 20px #000;
+}
+
+nav {
+    width: 700px;
+    background-color: sandybrown;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 15px;
+    
+}
+
+nav li {
+    font-size: 19px;
+    font-family: 'Lobster Two', cursive;
+    display: inline-block;
+    margin: 0 15px;
+    color:gold;
+    text-shadow:
+    -1px -1px 0 brown,
+    1px -1px 0 brown,
+    -1px 1px 0 brown,
+    1px 1px 0 brown;  
+    
+}
