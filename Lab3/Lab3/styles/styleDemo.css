@@ -1,0 +1,84 @@
+﻿body {
+    background-color:Highlight;
+}
+
+#tablet {
+    display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#mobil {
+    display: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#printer {
+    display: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: honeydew;
+    }
+
+    #tablet {
+    display: block;
+}
+
+#mobil {
+    display: none;
+}
+
+#printer {
+    display: none;
+}
+
+#desktop {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: wheat;
+    }
+
+    #tablet {
+    display: none;
+}
+
+#mobil {
+    display: block;
+}
+
+#printer {
+    display: none;
+}
+
+#desktop {
+    display: none;
+}
+}
+
+@media only print {
+    body {
+        background-color: white;
+    }
+
+    #tablet {
+    display: none;
+}
+
+#mobil {
+    display: none;
+}
+
+#printer {
+    display: block;
+}
+
+#desktop {
+    display: none;
+}
+}
