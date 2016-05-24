@@ -34,6 +34,7 @@ h1 {
     text-shadow: 2px 2px 8px #000;
     margin: 40px auto;
     margin-left: 30px;
+    
 }
 
 h2:after {
@@ -92,6 +93,10 @@ nav li {
       
 }
 
+.clearline {
+    width: 800px;
+}
+
 h2 {
     font-family: 'Fjalla One', sans-serif;
     color: darkslategray;
@@ -99,6 +104,8 @@ h2 {
     letter-spacing: 3px;
     margin: 15px auto;
     text-shadow: 1px 1px 1px #b0b0b0;
+    
+    
 }
 
 h3 {
@@ -257,6 +264,42 @@ a {
 a:hover {
    box-shadow: 0 4px 1px -4px darkslategray;
 
+}
+
+iframe {
+    width: 740px;
+    height: 300px;
+    margin: 15px 30px 15px 30px;
+
+}
+
+fieldset {
+    display:inline-block;
+    border: none;
+    width: 300px;
+    margin: 15px auto;
+    vertical-align: top;
+}
+input {
+    background-color: white;
+    width: 300px;
+    padding: 5px;
+    margin: 3px auto;
+    border: 1px solid darkslategray;
+}
+
+textarea {
+    resize:none;
+    margin-top: 3px;
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+    border: 1px solid darkslategray;
+}
+
+#submit {
+    width: 100px;
+    margin-left:213px;
 }
 
 

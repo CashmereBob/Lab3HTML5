@@ -82,6 +82,12 @@
         min-width: 320px;
         margin: 20px auto;
     }
+    iframe {
+    width: 380px;
+    height: 300px;
+    margin: 15px 40px 15px 40px;
+
+}
 
 
 }

@@ -101,6 +101,7 @@
     <Content Include="images\5.jpg" />
     <Content Include="images\6.jpeg" />
     <Content Include="images\1.jpg" />
+    <Content Include="images\me.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -114,6 +115,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="pages\about.html" />
+    <Content Include="pages\contact.html" />
     <Content Include="pages\demo1.html" />
     <Content Include="pages\demo2.html" />
     <Content Include="pages\demo3.html" />
