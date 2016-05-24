@@ -9,6 +9,10 @@ body {
     background-attachment:fixed;
 }
 
+.button {
+    display:none;
+}
+
 #wrapper {
     width: 800px;
     height: 100%;
@@ -247,7 +251,7 @@ footer {
 a {
     text-decoration: none;
     color: darkslategrey;
-    border-bottom: 0px solid darkslategray;
+    
 }
 
 a:hover {
