@@ -15,6 +15,7 @@ body {
     margin: 0px auto;
     display: flex;
     flex-direction:column;
+    padding-bottom: 30px;
 }
 
 header {
@@ -31,9 +32,30 @@ h1 {
     margin-left: 30px;
 }
 
+h2:after {
+    content:"";
+    display:block;
+    width: 50px;
+    margin: 10px auto 0px auto;
+    border-bottom: 1px solid #eaeae0;
+}
+
+h2:before {
+    content:"";
+    display:block;
+    width: 50px;
+    margin: 0px auto 10px auto;
+    border-bottom: 1px solid #eaeae0;
+
+}
+
 article{
     background: linear-gradient(to right, whitesmoke, floralwhite, floralwhite, floralwhite, floralwhite, whitesmoke);
     text-align: center;
+    display: flex;
+    flex-direction:row;
+    flex-flow: wrap;
+    padding-bottom: 25px;
     
 }
 
@@ -72,25 +94,24 @@ h2 {
     font-size:18px;
     letter-spacing: 3px;
     margin: 15px auto;
-    text-shadow: 1px 1px 1px #808080;
+    text-shadow: 1px 1px 1px #b0b0b0;
 }
 
-figure img {
-    border: 1px solid darkslategray;   
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+    color: darkslategray;
+    font-size:15px;
+    letter-spacing: 3px;
+    margin: 0px auto 10px auto;
+    text-shadow: 0px 0px 2px #b0b0b0;
 }
 
-figure {
-    position: relative;
-}
-
-figcaption {
-    position: absolute;
+.row figcaption {
+    position:relative;
     background-color:rgba(0, 0, 0, 0.5);
     color: floralwhite;
     padding: 3px;
     font-family: 'Titillium Web', sans-serif;
-    
-
 }
 
 .row figcaption {
@@ -100,5 +121,139 @@ figcaption {
 }
 
 .row img {
-    max-width: 720px;  
+    max-width: 720px; 
+    
 }
+
+
+.paragraf {
+    border-bottom: 1px solid #eaeae0;
+    border-top: 1px solid #eaeae0;
+    padding: 20px 10px;
+    width: 700px;
+    margin:10px auto;
+}
+
+p{
+    text-align: left;
+    font-family: 'Titillium Web', sans-serif;
+    color: #525050;
+}
+
+.column {
+    width: 350px;
+    margin: 15px auto;
+}
+
+.polaroid {
+    margin: 25px auto 0px 25px;
+    background-color: white;
+    width: 270px;
+    padding: 20px;
+    box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+    transform: rotate(-4deg);
+
+}
+
+.polaroid img {
+    max-width: 270px;
+}
+
+.polaroid figcaption{
+    margin: 15px auto 0px auto;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 25px;
+}
+
+.pin {
+  background-color: #aaa;
+  height: 32px;
+  width: 2px;
+  left: 50%;
+  top: -16px;
+  position: absolute;
+}
+
+.pin:after {
+  background-color: #A31;
+  background-image: radial-gradient(25% 25%, circle, hsla(0,0%,100%,.3), hsla(0,0%,0%,.3));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px hsla(0,0%,0%,.1),
+              inset 3px 3px 3px hsla(0,0%,100%,.2),
+              inset -3px -3px 3px hsla(0,0%,0%,.2),
+              23px 20px 3px hsla(0,0%,0%,.15);
+  content: '';
+  height: 12px;
+  left: -5px;
+  position: absolute;
+  top: -10px;
+  width: 12px;
+}
+
+.pin:before {
+    background-color: hsla(0,0%,0%,0.1);
+    box-shadow: 0 0 .25em hsla(0,0%,0%,.1);
+    content: '';
+    height: 24px;
+    width: 2px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(57.5deg);
+
+    transform-origin: 50% 100%;
+
+}
+
+.portfolio img {
+    max-width: 340px;
+    
+    image-orientation:unset;
+}
+
+.portfolio {
+    margin: 30px auto;
+}
+.left {
+    margin-left: 35px;
+}
+
+.right {
+    margin-right: 35px;
+}
+
+.portfolio figcaption {
+    position:relative;
+    background-color:rgba(0, 0, 0, 0.5);
+    color: floralwhite;
+    padding: 3px;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -60px;
+    width: 334px;
+    margin-left: 5px;
+}
+
+footer {
+    font-size: 15px;
+    font-family: 'Titillium Web', sans-serif;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: antiquewhite;
+    text-align: right;
+
+}
+
+a {
+    text-decoration: none;
+    color: darkslategrey;
+    border-bottom: 0px solid darkslategray;
+}
+
+a:hover {
+   box-shadow: 0 4px 1px -4px darkslategray;
+
+}
+
+
+
