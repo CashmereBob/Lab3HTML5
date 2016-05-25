@@ -120,6 +120,7 @@
     <Content Include="pages\demo1.html" />
     <Content Include="pages\demo2.html" />
     <Content Include="pages\demo3.html" />
+    <Content Include="pages\demo4.html" />
     <Content Include="pages\iphone.html" />
     <Content Include="scripts\ai.0.15.0-build58334.js" />
     <Content Include="scripts\ai.0.15.0-build58334.min.js" />
