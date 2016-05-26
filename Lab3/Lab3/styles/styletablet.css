@@ -1,0 +1,68 @@
+﻿@media only screen and (max-width: 768px) {
+    #wrapper {
+        width: auto;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    * {
+        margin: 0px;
+        padding:0px;
+    }
+
+    .row, .portfolio img {
+        max-width: 100%;
+    }
+
+    .row, .portfolio figcaption {
+        width:initial;  
+    }
+
+    .row figcaption {
+        width: initial;
+    }
+
+    .row figure{
+        margin: 10px auto;
+    }
+
+    .polaroid {
+        margin: 0px auto;
+    }
+
+    .column p {
+        padding: 10px;
+    }
+
+    .column {
+        max-width: 100%;
+        margin: 20px auto;
+    }
+
+    .row {
+        text-align: center;
+        width: auto;
+    }
+
+    iframe {
+    max-width: 70%;
+    height: 300px;
+    margin: 0px 10%;
+
+}
+
+    
+
+    .row img {
+        max-width: 100%
+    }
+
+
+}
