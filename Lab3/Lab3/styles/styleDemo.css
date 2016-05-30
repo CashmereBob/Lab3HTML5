@@ -157,8 +157,9 @@
 
 .quote-container:hover .note {
     width: 300px;
+    background-color: fuchsia;
 }
 
 .quote-container:hover .hide {
-    display:block;
+    display: block;
 }
